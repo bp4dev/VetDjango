@@ -475,7 +475,7 @@ a {
     text-align: center;
 }
 
-button.main_bt {
+submit.main_bt {
     background: #f7941d;
     border: none;
     color: #fff;
