@@ -15,7 +15,7 @@ def contact(request):
 
         #sending email
         send_mail(
-                name,#subject
+                name + '' + phone_number,#subject
                 message,#message
                 email,#from
                 ['test@email.com'],#to
